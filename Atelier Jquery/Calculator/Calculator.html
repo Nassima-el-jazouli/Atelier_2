@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+        	<title>Calculator</title>
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+            <link rel="stylesheet" href="js/bootstrap.min.js">
+            <link rel="stylesheet" href="Calculator.css">
+			<link rel="icon" href="images/calculator-icon-256-348653001.png">
+</head>
+<body>
+
+	<div class="calc" style="margin-top: 100px;">
+		<form name="form">
+			<p>Calculator</p>
+			<input class="calc-display">
+		</form>
+		<table>
+			<tr>
+				<td><input type="button" value="7" onclick="insrt(7)"></td>
+				<td><input type="button" value="8" onclick="insrt(8)"></td>
+				<td><input type="button" value="9" onclick="insrt(9)"></td>
+				<td><input type="button" value="CE" onclick="del()" style="background-color:blueviolet;"></td>
+				<td><input type="button" value="C" onclick="c()" style="background-color: lightpink;"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="insrt(4)"></td>
+				<td><input type="button" value="5" onclick="insrt(5)"></td>
+				<td><input type="button" value="6" onclick="insrt(6)"></td>
+				<td><input type="button" value="/" onclick="insrt('/')"></td>
+				<td><input type="button" value="*" onclick="insrt('*')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" onclick="insrt(1)"></td>
+				<td><input type="button" value="2" onclick="insrt(2)"></td>
+				<td><input type="button" value="3" onclick="insrt(3)"></td>
+				<td><input type="button" value="-" onclick="insrt('-')"></td>
+				<td rowspan=2><input type="button" value="+" onclick="insrt('+')" style="height: 158px; background-color:thistle"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" value="0" onclick="insrt(0)" style="width: 158px; ;"></td>
+				<td><input type="button" value="." onclick="insrt('.')"></td>
+				<td><input type="button" value="=" onclick="eql()" style="background-color: rgb(224, 209, 69);"></td>
+			</tr>
+		</table>
+	</div>
+	<script src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="Calculator.js"></script>
+</body>
+</html>

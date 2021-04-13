@@ -1,0 +1,42 @@
+/* ********************* header ******************* */
+#favicon
+{
+    width: 16px;
+    height: 16px;
+}
+h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    }
+/* ********************* body ******************* */
+
+body{
+
+    background-image: url("images/17973871.jpg");
+    background-repeat:no-repeat;
+    background-size:150%;
+    
+    }
+form{
+     
+    border :2px solid black;
+    padding :5px;
+    border-radius: 3%;
+    margin-left:15%;
+    margin-right:auto;
+    width:70%;
+    background-color:white;
+
+}
+#q6{
+    
+    border :2px solid black;
+    padding :5px;
+    border-radius: 3%;
+    margin-left:15%;
+    margin-right:auto;
+    width:70%;
+    background-color:white;
+}

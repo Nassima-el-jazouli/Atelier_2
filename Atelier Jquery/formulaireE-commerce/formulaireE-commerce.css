@@ -1,0 +1,179 @@
+/* ************ Header ************ */
+header
+{
+    /* height: 150px; */
+    background-image: url(images/onlineEcommerce.jpg);
+    /* padding-right: 0px; */
+    /* background: linear-gradient(rgba(72,83,89,0.5), rgba(72,83,89,0.5)); */
+    /* background-size: cover;
+    background-position: center; */
+    height: 100vh;
+    /* display: fixed; */
+}
+#favicon
+{
+    width: 16px;
+    height: 16px;
+}
+#logo
+{
+    height : 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+#barre
+{
+    margin-right: 40px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D90467;
+    font-size: 18px;
+}
+a:hover
+{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+}
+/* #navbar
+{
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+} */
+span
+{
+    color: #D90467;
+}
+#panier.com
+{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 300px;
+    color: #fff;
+}
+/* #navbar.black
+{
+    background:  #0A0A0D;
+} */
+/* ************ Body ************ */
+body
+{
+    background-color: #485359;
+}
+#leBienvenue
+{
+    text-align: center;
+    font-size: 32px;
+}
+form
+{
+    height: 1200px;
+    margin-top: 60px;
+    margin-left: 300px;
+    text-underline-position:below;
+}
+.sexe
+{
+    margin-left: 300px;
+    margin-top: -30px;
+}
+.formulaire input
+{
+    width: 200px;
+    margin-bottom: 20px;
+}
+label
+{
+    text-decoration: solid;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #94E9F2;
+}
+input
+{
+    border: 2px solid #D90467;
+    border-radius: 5px;
+}
+select
+{
+    border: 2px solid #D90467;
+    border-radius: 5px;
+}
+#options
+{
+    border: 2px solid #D90467;
+    border-radius: 5px;
+}
+#inscrire
+{
+    background-color: #D90467;
+    margin-left: 600px;
+    margin-top: 40px;
+    border-color: #D90467;
+}
+#inscrire:hover
+{
+    border-color: #D90467;
+    
+}
+.message
+{
+    color: #D90467;
+}
+/* ************ Footer ************ */
+/* footer
+{
+    background-color: #94E9F2;
+    margin-right: 0px;
+    height: 150px;
+}
+#facebook
+{
+    height: 56px;
+    width: 56px;
+}
+#instagram
+{
+    height: 56px;
+    width: 56px;
+}
+#twitter
+{
+    height: 56px;
+    width: 56px;
+}
+#youtube
+{
+    height: 56px;
+    width: 56px;
+}
+#facebook:hover
+{
+    transform: scale(1.2);
+}
+#instagram:hover
+{
+    transform: scale(1.2);
+}
+#twitter:hover
+{
+    transform: scale(1.2);
+}
+#youtube:hover
+{
+    transform: scale(1.2);
+}
+#copy
+{
+    margin-bottom: 0px;
+    margin-right: 0px;
+} */
